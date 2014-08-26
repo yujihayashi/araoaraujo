@@ -49,6 +49,20 @@ ESTRUTURA START
 **********************************************************************************************/
 body {background: url(../imagem/site/bg-x.jpg) repeat-x top;}
 .extra-geral {background: url(../imagem/site/bg.jpg) no-repeat center top;min-height: 5368px;}
+.site-header {height: 168px;}
+.page {
+    height: 750px;
+    &#page-sobre {
+        .box-perfil {
+            padding:33px 14px 0 21px;color: #23607d;text-align: center;line-height: 1.2;
+            .box-img {margin-bottom: 16px;}
+            .box-content {padding-left:10px;padding-right: 10px;}
+        }
+        .box-sobre {
+            text-align: center;color: #FFF;padding:0 40px;
+        }
+    }
+}
 /**********************************************************************************************
 ESTRUTURA END
 */
@@ -94,14 +108,14 @@ JQUERY UI END
 
 }
 @media (max-width: 767px) {
- /*    .site-geral:before {content:"TABLET";}*/
+   /*    .site-geral:before {content:"TABLET";}*/
 }
 @media (max-width: 480px) {
- /*#GERAL:before {content:"MOBILE";}*/
+   /*#GERAL:before {content:"MOBILE";}*/
 }
 @media (min-width: 768px) and (max-width: 980px) {
 
 }
 @media (min-width: 981px) and (max-width: 1200px) {
- /*#GERAL:before {content:"ACIMA DE TABLET";}*/
+   /*#GERAL:before {content:"ACIMA DE TABLET";}*/
 }
