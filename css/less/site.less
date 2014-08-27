@@ -41,7 +41,7 @@ a {transition: all 0.25s ease 0s;}
 /*
 FONTS START
 **********************************************************************************************/
-.box-atuacao .box-content {font-family: 'ralewayheavy', Arial, sans-serif;}
+.box-atuacao .box-content, .site-tablet .img.destaque {font-family: 'ralewayheavy', Arial, sans-serif;}
 /**********************************************************************************************
 FONTS END
 */
@@ -63,7 +63,19 @@ body {background: url(../imagem/site/bg-x.jpg) repeat-x top;}
         .hands {position: absolute;z-index: 3;left: -100px;top: 30px;}
         .imagens {
             position: relative;z-index: 2;width: 276px;height: 192px;overflow: hidden;background: #4d8537;
-            .img {position: absolute;left: 0;top: 0;}
+            .img {
+                position: absolute;left: 0;top: 0;background: #4d8537;right: 0;bottom: 0;
+                &.txt {
+                    padding:20px;color: #FFF;font-size: 12px;
+                    .media-heading {color: #000;}
+                    .title {color: #bad869;}
+                }
+                &.destaque {
+                    text-align: center;font-size: 22px;color: #e2e79e;
+                    .title {max-width: 96%;}
+                    * {display: inline-block;vertical-align: middle;}
+                }
+            }
         }
     }
 }
