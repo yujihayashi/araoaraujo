@@ -6,7 +6,7 @@
     "@gray-light": "lighten(#000, 46.7%)",
     "@gray-lighter": "lighten(#000, 93.5%)",
     "@brand-primary": "#4c8438",
-    "@brand-success": "#4d8537",
+    "@brand-success": "#90b73e",
     "@brand-info": "#2e6986",
     "@brand-warning": "#e2e79e",
     "@brand-danger": "#d9534f",
@@ -21,13 +21,13 @@
     "@font-size-base": "14px",
     "@font-size-large": "ceil((@font-size-base * 1.25))",
     "@font-size-small": "ceil((@font-size-base * 0.85))",
-    "@font-size-h1": "floor((@font-size-base * 2.6))",
-    "@font-size-h2": "floor((@font-size-base * 2.15))",
-    "@font-size-h3": "ceil((@font-size-base * 1.7))",
-    "@font-size-h4": "ceil((@font-size-base * 1.25))",
-    "@font-size-h5": "@font-size-base",
-    "@font-size-h6": "ceil((@font-size-base * 0.85))",
-    "@line-height-base": "1.428571429",
+    "@font-size-h1": "40px",
+    "@font-size-h2": "35px",
+    "@font-size-h3": "30px",
+    "@font-size-h4": "24px",
+    "@font-size-h5": "20px",
+    "@font-size-h6": "18px",
+    "@line-height-base": "1.1",
     "@line-height-computed": "floor((@font-size-base * @line-height-base))",
     "@headings-font-family": "'ralewayheavy', Arial, sans-serif",
     "@headings-font-weight": "normal",
@@ -419,5 +419,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=91b73203c0e1bd5e1d80"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=f58544d814f6704ab13b"
 }
